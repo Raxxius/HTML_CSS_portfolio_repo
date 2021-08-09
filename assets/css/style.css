@@ -9,6 +9,15 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-/*placeholder color to be changed*/
-    color: black;
+/* placeholder color to be changed */
+    color: darkslategray;
+}
+
+#olympics-overview {
+    background-color: #EFC3C8;
+    margin: 2%;
+}
+
+#olympics-overview p {
+    color: darkslategray;
 }
