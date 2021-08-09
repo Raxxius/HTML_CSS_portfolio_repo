@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* dyslexic friendly font design choice */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+/*placeholder color to be changed*/
+    color: black;
+}
