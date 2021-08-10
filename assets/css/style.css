@@ -23,7 +23,7 @@ body {
 }
 
 .col {
- width: 30%;
+ width: 33%;
  height: 600px;
  color: #EFC3C8;
  overflow: hidden;
@@ -46,6 +46,27 @@ body {
     padding-top: 30px;
     width: 33%;
     float: left;
+}
+
+.about-img {
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 200px;
+    margin: 0;
+    background-color: grey;
+}
+
+.left-img {
+    background-image: url(../images/about1.jpg);
+}
+
+.center-img {
+    background-image: url(../images/about2.jpg);
+}
+
+.right-img {
+    background-image: url(../images/about3.jpg);
 }
 
 #olympics-overview {
