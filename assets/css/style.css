@@ -22,6 +22,11 @@ body {
     overflow: hidden;
 }
 
+/* this hasn't moved the text as expected - to be looked at next session */
+#about-header {
+    margin: 5%;
+}
+
 .col {
     width: 34%;
     height: 600px;
