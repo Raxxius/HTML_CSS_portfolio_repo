@@ -23,7 +23,6 @@ body {
 }
 
 .col {
-    float: right;
     width: 34%;
     height: 600px;
     color: #EFC3C8;
@@ -44,6 +43,12 @@ body {
     float: left;
 }
 
+#about-right {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
 .about-img {
     display: block;
     background-size: cover;
@@ -53,12 +58,6 @@ body {
     position: relative;
     background-color: grey;
     margin: 0 0 0 -20%;
-}
-
-#about-right {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
 }
 
 .left-img {
