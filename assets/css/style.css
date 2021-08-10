@@ -23,23 +23,18 @@ body {
 }
 
 .col {
- width: 33%;
- height: 600px;
- color: #EFC3C8;
- overflow: hidden;
- display: block;
+    float: right;
+    width: 34%;
+    height: 600px;
+    color: #EFC3C8;
+    overflow: hidden;
+    display: block;
 }
 
 #about-left {
     padding-top: 30px;
     width: 33%;
     float: left;
-}
-
-#about-right {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
 }
 
 #about-center {
@@ -49,24 +44,35 @@ body {
 }
 
 .about-img {
-    display: block;
-    background-size: cover;
-    background-position: 50% 50%;
-    height: 200px;
-    margin: 0;
-    background-color: grey;
+    height: 300px;
+}
+
+#about-right {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
 }
 
 .left-img {
     background-image: url(../images/about1.jpg);
+    background-position: 50% 50%;
 }
 
 .center-img {
     background-image: url(../images/about2.jpg);
+    background-position: center;
 }
 
-.right-img {
+/* this section is not fully debugged and is providing some bugs */
+#right-img {
     background-image: url(../images/about3.jpg);
+    float: right;
+    background-position: right;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200%;
+    height: 200%;
 }
 
 #olympics-overview {
