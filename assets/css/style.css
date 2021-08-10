@@ -29,6 +29,7 @@ body {
     color: #EFC3C8;
     overflow: hidden;
     display: block;
+    transform: rotate(10deg);
 }
 
 #about-left {
@@ -44,7 +45,14 @@ body {
 }
 
 .about-img {
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200%;
     height: 300px;
+    position: relative;
+    background-color: grey;
+    margin: 0 0 0 -20%;
 }
 
 #about-right {
@@ -63,16 +71,15 @@ body {
     background-position: center;
 }
 
-/* this section is not fully debugged and is providing some bugs */
-#right-img {
+
+.right-img {
     background-image: url(../images/about3.jpg);
+    background-position: center;
     float: right;
-    background-position: right;
-    display: block;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 200%;
-    height: 200%;
+}
+
+.col-10degree-rotate {
+    transform: rotate(-10deg);
 }
 
 #olympics-overview {
