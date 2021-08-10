@@ -22,8 +22,7 @@ body {
     overflow: hidden;
 }
 
-.col{
- float: right;
+.col {
  width: 30%;
  height: 600px;
  color: #EFC3C8;
@@ -31,7 +30,23 @@ body {
  display: block;
 }
 
+#about-left {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
 
+#about-right {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#about-center {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
 
 #olympics-overview {
     background-color: #EFC3C8;
