@@ -17,6 +17,7 @@ body {
     margin: 100px auto;
     width: 80%;
     max-width: 1200px;
+/* remove border prior to final release */
     border: 1px solid black;
     height: 420px;
     overflow: hidden;
@@ -77,7 +78,6 @@ body {
     background-position: center;
 }
 
-
 .right-img {
     background-image: url(../images/about3.jpg);
     background-position: center;
@@ -86,8 +86,11 @@ body {
 
 .col-10degree-rotate {
     transform: rotate(-10deg);
-    margin-top: 150px;
+    margin-top: 80px;
 }
+
+
+/* Olympics page specific CSS */
 
 #olympics-overview {
     background-color: #EFC3C8;
@@ -96,4 +99,23 @@ body {
 
 #olympics-overview p {
     color: darkslategray;
+}
+
+/* Active CSS */
+
+.left-img:hover {
+    margin-top: -1px;
+    border: 1px solid black;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1)
+    }
+    to {
+        transform: scale(1.1)
+    }
 }
