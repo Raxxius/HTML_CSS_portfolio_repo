@@ -13,6 +13,24 @@ body {
     color: darkslategray;
 }
 
+.about-container {
+    margin: 100px auto;
+    width: 80%;
+    max-width: 1200px;
+    border: 1px solid black;
+    height: 420px;
+    overflow: hidden;
+}
+
+.col{
+ float: right;
+ width: 30%;
+ height: 600px;
+ color: #EFC3C8;
+ overflow: hidden;
+ display: block;
+}
+
 #olympics-overview {
     background-color: #EFC3C8;
     margin: 2%;
