@@ -23,8 +23,9 @@ body {
 }
 
 /* this hasn't moved the text as expected - to be looked at next session */
-#about-header {
-    margin: 5%;
+.about-header {
+    padding: 10px 5px 10px 20%;
+    font-size: 200%;
 }
 
 .col {
