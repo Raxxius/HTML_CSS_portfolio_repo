@@ -150,15 +150,13 @@ body {
 
 /* Active CSS */
 
-.left-img:hover {
-    margin-top: -1px;
-    border: 1px solid black;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
+.about-img:hover {
+    animation-name: about-zoom;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
-@keyframes hero-zoom {
+@keyframes about-zoom {
     from {
         transform: scale(1)
     }
