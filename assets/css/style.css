@@ -52,7 +52,7 @@ body {
     max-width: 1200px;
 /* remove border prior to final release */
     border: 1px solid black;
-    height: 420px;
+    height: 400px;
     overflow: hidden;
     position: relative;
 }
