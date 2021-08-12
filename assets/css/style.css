@@ -13,6 +13,22 @@ body {
     color: darkslategray;
 }
 
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background-color: lightslategray;
+/* image from https://jimmychin.com/wp-content/uploads/2019/01/FreeSolo_07_1-1200x675.jpg */
+    background: url('../images/hero-image.jpg') no-repeat 20% 100%;
+    background-size: cover;
+}
+
 .about-container {
     margin: 100px auto;
     width: 80%;
