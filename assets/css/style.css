@@ -74,19 +74,19 @@ body {
 }
 
 #about-left {
-    padding-top: 30px;
-    width: 40%;
+    padding-top: 20px;
+    width: 39%;
     margin-left: -7%;
 }
 
 #about-center {
-    padding-top: 30px;
+    padding-top: 20px;
     width: 34%;
 }
 
 #about-right {
-    padding-top: 30px;
-    width: 40%;
+    padding-top: 20px;
+    width: 39%;
     margin-right: -7%;
 }
 
@@ -103,18 +103,20 @@ body {
 
 .left-img {
     background-image: url(../images/about1.jpg);
-    background-position: 50% 50%;
+    height: 300px;
+    background-position: -40px 0px;
 }
 
 .center-img {
     background-image: url(../images/about2.jpg);
+    height: 300px;
     background-position: center;
 }
 
 .right-img {
     background-image: url(../images/about3.jpg);
+    height: 300px;
     background-position: center;
-    float: right;
 }
 
 .col-10degree-rotate {
