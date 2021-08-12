@@ -46,8 +46,17 @@ body {
     position: absolute;
 }
 
+#about-header {
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    font-size: 300%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
 .about-container {
-    margin: 100px auto;
+    margin: 10px auto 0 auto;
     width: 80%;
     max-width: 1200px;
 /* remove border prior to final release */
