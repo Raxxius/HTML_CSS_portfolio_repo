@@ -175,3 +175,15 @@ body {
 #about-left-text {
     display: none;
 }
+
+#about-center-text {
+    display: none;
+}
+
+#about-right-text {
+    display: none;
+}
+
+#about-left-text:target::before {
+    content: "Climbing is a physical challenge that works your arms, core, legs, gluts and back. In addition to building strength it builds flexiblity and stamina, all while being a low impact sport!"
+}
