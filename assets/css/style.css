@@ -73,6 +73,11 @@ body {
     margin-top: -100px;
 }
 
+.col-10degree-rotate {
+    transform: rotate(-10deg);
+    margin-top: 80px;
+}
+
 #about-left {
     padding-top: 20px;
     width: 39%;
@@ -92,10 +97,8 @@ body {
 
 .about-img {
     display: block;
-    background-size: cover;
     background-repeat: no-repeat;
     width: 200%;
-    height: 300px;
     position: relative;
     background-color: grey;
     margin: 0 0 0 -20%;
@@ -103,26 +106,28 @@ body {
 
 .left-img {
     background-image: url(../images/about1.jpg);
-    height: 300px;
-    background-position: -40px 0px;
+    background-size: 80%;
+    background-position: -40px 0;
+    min-width: 800px;
+    height: 400px;
 }
 
 .center-img {
     background-image: url(../images/about2.jpg);
-    height: 300px;
-    background-position: center;
+    background-size: 180%;
+    background-position: -360px 30%;
+    height: 400px;
+    min-width: 800px;
 }
 
 .right-img {
     background-image: url(../images/about3.jpg);
-    height: 300px;
-    background-position: center;
+    background-size: 100%;
+    background-position: -360px 30%;
+    height: 400px;
+    min-width: 800px;
 }
 
-.col-10degree-rotate {
-    transform: rotate(-10deg);
-    margin-top: 80px;
-}
 
 
 /* Olympics page specific CSS */
