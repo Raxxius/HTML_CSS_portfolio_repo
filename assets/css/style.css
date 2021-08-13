@@ -187,6 +187,12 @@ header {
 
 /* Olympics page specific CSS */
 
+.olympics-div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
 #olympics-overview {
     background-color: #EFC3C8;
     margin: 2%;
