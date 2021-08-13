@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0 0 0 0;
     padding: 0;
     border: none;
 }
@@ -13,17 +13,20 @@ body {
     color: darkslategray;
 }
 
+/*header and nav bar */
+
 header {
     font-size: 150%;
     font-weight: 400;
     text-transform: uppercase;
+    overflow: hidden;
 }
 
 #logo {
     float: left;
     margin-left: 35px;
+    
 }
-
 
 #menu {
     float: right;
@@ -45,7 +48,7 @@ header {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    position: relative;
+
 }
 
 #hero-image {
