@@ -173,17 +173,29 @@ body {
 /* hidden text */
 
 #about-left-text {
-    display: none;
+    display: contents;
 }
 
 #about-center-text {
-    display: none;
+    display: contents;
 }
 
 #about-right-text {
-    display: none;
+    display: contents;
 }
 
-#about-left-text:target::before {
+#about-left-text:target::after {
+    display: initial;
     content: "Climbing is a physical challenge that works your arms, core, legs, gluts and back. In addition to building strength it builds flexiblity and stamina, all while being a low impact sport!"
 }
+
+#about-center-text:target::after {
+    display: initial;
+    content: "Not just a physical challenge, climbing also pushes your mentality, brute force alone will only get you so far, and the best climbers spend time understanding the climb before even touching the wall. When it all goes well, it's like meditative yoga, but going up!"
+}
+
+#about-right-text:target::after {
+    display: initial;
+    content: "Climbing is a physical challenge that works your arms, core, legs, glutes and back. In addition to building strength it builds flexiblity and stamina, all while being a low impact sport!"
+}
+
