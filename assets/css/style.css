@@ -13,6 +13,33 @@ body {
     color: darkslategray;
 }
 
+header {
+    font-size: 150%;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#logo {
+    float: left;
+    margin-left: 35px;
+}
+
+
+#menu {
+    float: right;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
 #hero-outer {
     background-color: lightslategray;
     height: 600px;
