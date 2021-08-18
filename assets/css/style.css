@@ -189,17 +189,25 @@ header {
 
 .olympics-div {
     display: flex;
-    flex-flow: row wrap;
     justify-content: space-around;
 }
 
 #olympics-overview {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     background-color: #EFC3C8;
     margin: 2%;
 }
 
 #olympics-overview p {
     color: darkslategray;
+    flex-grow: 2;
+}
+
+.olympics-image {
+    min-width: 480px;
+    flex-grow: 1;
 }
 
 /* Active CSS */
